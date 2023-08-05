@@ -1,0 +1,20 @@
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\bin\Debug\netcoreapp3.1\WebPessoa.Repository.deps.json
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\bin\Debug\netcoreapp3.1\WebPessoa.Repository.dll
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\bin\Debug\netcoreapp3.1\WebPessoa.Repository.pdb
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.csproj.AssemblyReference.cache
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.AssemblyInfoInputs.cache
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.AssemblyInfo.cs
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.csproj.CoreCompileInputs.cache
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.dll
+C:\Users\rodne\Desktop\Cursos\projetos.net\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.pdb
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\bin\Debug\netcoreapp3.1\WebPessoa.Repository.deps.json
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\bin\Debug\netcoreapp3.1\WebPessoa.Repository.dll
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\bin\Debug\netcoreapp3.1\WebPessoa.Repository.pdb
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.csproj.AssemblyReference.cache
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.AssemblyInfoInputs.cache
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.AssemblyInfo.cs
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.csproj.CoreCompileInputs.cache
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.dll
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\WebPessoa.Repository\obj\Debug\netcoreapp3.1\WebPessoa.Repository.pdb

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\obj\\Debug\\netcoreapp3.1",
+    "\\WebPessoa.Application",
+    "\\WebPessoa.Application\\Autenticacao",
+    "\\WebPessoa.Application\\obj",
+    "\\WebPessoa.Application\\obj\\Release",
+    "\\WebPessoa.Application\\obj\\Release\\netcoreapp3.1"
+  ],
+  "SelectedNode": "\\Controllers\\AutenticacaoController.cs",
+  "PreviewInSolutionExplorer": false
+}

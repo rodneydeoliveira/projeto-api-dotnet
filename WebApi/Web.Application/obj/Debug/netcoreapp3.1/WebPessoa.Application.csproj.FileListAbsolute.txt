@@ -1,0 +1,13 @@
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\bin\Debug\netcoreapp3.1\WebPessoa.Application.deps.json
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\bin\Debug\netcoreapp3.1\WebPessoa.Application.dll
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\bin\Debug\netcoreapp3.1\WebPessoa.Application.pdb
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\bin\Debug\netcoreapp3.1\WebPessoa.Repository.dll
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\bin\Debug\netcoreapp3.1\WebPessoa.Repository.pdb
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\obj\Debug\netcoreapp3.1\WebPessoa.Application.csproj.AssemblyReference.cache
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\obj\Debug\netcoreapp3.1\WebPessoa.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\obj\Debug\netcoreapp3.1\WebPessoa.Application.AssemblyInfoInputs.cache
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\obj\Debug\netcoreapp3.1\WebPessoa.Application.AssemblyInfo.cs
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\obj\Debug\netcoreapp3.1\WebPessoa.Application.csproj.CoreCompileInputs.cache
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\obj\Debug\netcoreapp3.1\WebPessoa.Application.csproj.CopyComplete
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\obj\Debug\netcoreapp3.1\WebPessoa.Application.dll
+C:\Users\rodne\OneDrive\Área de Trabalho\projeto-api-dotnet\WebApi\Web.Application\obj\Debug\netcoreapp3.1\WebPessoa.Application.pdb

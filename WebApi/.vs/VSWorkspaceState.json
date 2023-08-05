@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Web.Application",
+    "\\Web.Application\\bin",
+    "\\Web.Application\\bin\\Debug",
+    "\\Web.Application\\bin\\Debug\\netcoreapp3.1",
+    "\\WebPessoa",
+    "\\WebPessoa\\Controllers",
+    "\\WebPessoa\\obj"
+  ],
+  "SelectedNode": "\\WebPessoa\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}
