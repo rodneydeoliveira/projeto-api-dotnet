@@ -16,6 +16,29 @@ namespace WebPessoa.Application.Pessoa
             _context = context;
 
         }
+        public PessoaHistoricoResponse ObterHistoricoPessoa(int id)
+        {
+            var pessoaDb = _context.Pessoas.FirstOrDefault(x => x.id == id);
+            var pessoa = new PessoaHistoricoResponse()
+            {
+                Aliquota = Convert.ToDouble(pessoaDb.aliquota),
+                Altura = pessoaDb.altura,
+                Classificacao = pessoaDb.classificacao,
+                DataNascimento = pessoaDb.dataNascimento,
+                id = pessoaDb.id,
+                Idade = pessoaDb.idade,
+                idUsuario = pessoaDb.idUsuario,
+                Imc = pessoaDb.imc,
+                Inss = Convert.ToDouble(pessoaDb.inss),
+                Nome = pessoaDb.nome,
+                Peso = pessoaDb.peso,
+                Salario = Convert.ToDouble(pessoaDb.salario),
+                SalarioLiquido = Convert.ToDouble(pessoaDb.salarioLiquido),
+                Saldo = pessoaDb.saldo,
+                SaldoDolar = pessoaDb.saldoDolar
+            };
+            return pessoa;
+        }
         public List<PessoaHistoricoResponse> ObterHistoricoPessoas()
         {
             var pessoasDb = _context.Pessoas.ToList();

@@ -49,6 +49,15 @@ namespace WebPessoa.Controllers
             var pessoas = pessoaService.ObterHistoricoPessoas();
             return pessoas;
         }
+        [HttpGet]
+        [Authorize]
+        [Route("{id}")]
+        public PessoaHistoricoResponse ObterHistoricoPessoa([FromRoute]int id)
+        {
+            var pessoaService = new PessoaService(_context);
+            var pessoa = pessoaService.ObterHistoricoPessoa(id);
+            return pessoa;
+        }
           
     }
 }
