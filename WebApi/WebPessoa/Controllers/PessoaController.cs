@@ -7,6 +7,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using WebPessoa.Application.Pessoa;
+using WebPessoa.Application.Usuario;
 using WebPessoa.Repository;
 
 namespace WebPessoa.Controllers
@@ -58,6 +59,24 @@ namespace WebPessoa.Controllers
             var pessoa = pessoaService.ObterHistoricoPessoa(id);
             return pessoa;
         }
-          
+
+        [HttpDelete]
+        [Authorize]
+        [Route("{id}")]
+        public IActionResult ExcluirInformacoesPessoa([FromRoute] int id)
+        {
+            var pessoaService = new PessoaService(_context);
+            var sucesso = pessoaService.ExcluirInformacoesPessoa(id);
+            if (sucesso == true)
+            {
+                return NoContent();
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+
     }
 }

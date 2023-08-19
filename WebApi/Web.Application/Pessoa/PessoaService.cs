@@ -113,6 +113,23 @@ namespace WebPessoa.Application.Pessoa
             return resposta;
 
         }
+        public bool ExcluirInformacoesPessoa(int id)
+        {
+            try
+            {
+                var pessoaDb = _context.Pessoas.FirstOrDefault(x => x.id == id);
+                if (pessoaDb == null)
+                    return false;
+                _context.Pessoas.Remove(pessoaDb);
+                _context.SaveChanges();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
         private int CalcularIdade(DateTime dataNascimento)
         {
             var anoAtual = DateTime.Now.Year;

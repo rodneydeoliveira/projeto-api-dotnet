@@ -23,15 +23,15 @@ namespace WebPessoa.Controllers
         public IActionResult Login([FromBody] AutenticacaoRequest request)
         {
             var autenticacoService = new AutenticacaoService(_context);
-            var tokenString = autenticacoService.Autenticar(request);
+            var autenticacaoResponse = autenticacoService.Autenticar(request);
 
-            if (string.IsNullOrWhiteSpace(tokenString)) { 
+            if (autenticacaoResponse == null) { 
                 return Unauthorized();
             }
 
             else
             {
-                return Ok(new { token = tokenString });
+                return Ok(autenticacaoResponse);
             }
         }
         

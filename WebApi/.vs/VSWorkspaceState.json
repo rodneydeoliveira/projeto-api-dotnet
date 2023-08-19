@@ -2,13 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Web.Application",
-    "\\Web.Application\\bin",
+    "\\Web.Application\\Autenticacao",
     "\\Web.Application\\bin\\Debug",
     "\\Web.Application\\bin\\Debug\\netcoreapp3.1",
     "\\WebPessoa",
-    "\\WebPessoa\\Controllers",
-    "\\WebPessoa\\obj"
+    "\\WebPessoa\\Controllers"
   ],
-  "SelectedNode": "\\WebPessoa\\appsettings.json",
+  "SelectedNode": "\\WebPessoa\\WebPessoa.sln",
   "PreviewInSolutionExplorer": false
 }

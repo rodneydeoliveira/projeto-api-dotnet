@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\WebApi",
-    "\\WebApi\\Web.Application"
+    "\\WebApi\\Web.Application",
+    "\\WebApi\\Web.Application\\Autenticacao",
+    "\\WebApi\\Web.Application\\Pessoa",
+    "\\WebApi\\Web.Application\\Usuario"
   ],
   "PreviewInSolutionExplorer": false
 }

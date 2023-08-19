@@ -19,7 +19,7 @@ namespace WebPessoa.Application.Autenticacao
         {
             _context = context;
         }
-        public string Autenticar(AutenticacaoRequest request)
+        public AutenticacaoResponse Autenticar(AutenticacaoRequest request)
         {
             var usuario = _context.Usuarios.FirstOrDefault(x => x.usuario == request.UserName && x.senha == request.Password);
 
@@ -27,7 +27,12 @@ namespace WebPessoa.Application.Autenticacao
             if (usuario != null)
             {
                 var tokenString = GerarTokenJwt(usuario);
-                return tokenString;
+                var autenticacaoResponse = new AutenticacaoResponse()
+                {
+                    Token = tokenString,
+                    UsuarioId = usuario.id
+                };
+                return autenticacaoResponse;
             }
             else
             {
