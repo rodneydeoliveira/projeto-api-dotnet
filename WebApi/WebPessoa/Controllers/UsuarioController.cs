@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebPessoa.Application.Usuario;
 using WebPessoa.Repository;
 
@@ -30,6 +31,7 @@ namespace WebPessoa.Controllers
             }
         }
         [HttpGet]
+        [Authorize]
 
         public IActionResult ObterUsuarios()
         {
@@ -39,6 +41,7 @@ namespace WebPessoa.Controllers
         }
         [HttpGet]
         [Route("{id}")]
+        [Authorize]
         public IActionResult ObterUsuario([FromRoute] int id)
         {
             var usuarioService = new UsuarioService(_context);
@@ -56,6 +59,7 @@ namespace WebPessoa.Controllers
         }
         [HttpPut]
         [Route("{id}")]
+        [Authorize]
 
         public IActionResult AtualizarUsuario([FromRoute] int id, [FromBody] UsuarioRequest request)
         {
@@ -73,6 +77,7 @@ namespace WebPessoa.Controllers
 
         [HttpDelete]
         [Route("{id}")]
+        [Authorize]
         public IActionResult RemoverUsuario([FromRoute] int id)
 
         {
